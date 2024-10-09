@@ -1,0 +1,33 @@
+{
+  "analyzedContracts": 5471192,
+  "proxyCount": 2207547,
+  "proxyTypes": {
+    "EIP1967Proxy": 530980,
+    "GnosisSafeProxy": 1907106,
+    "DiamondProxy": 3318,
+    "PROXIABLEProxy": 1502,
+    "ZeppelinOSProxy": 942,
+    "FixedProxy": 5942,
+    "SequenceWalletProxy": 28
+  },
+  "multiProxyContractsCount": {
+    "2": 189404,
+    "3": 6740,
+    "4": 4705,
+    "5": 3728,
+    "6": 1000,
+    "7": 252,
+    "8": 160,
+    "9": 35,
+    "10": 111,
+    "11": 48,
+    "12": 2,
+    "13": 7,
+    "14": 17,
+    "16": 15,
+    "17": 16,
+    "22": 1,
+    "26": 2,
+    "31": 3
+  }
+}

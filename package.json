@@ -1,0 +1,30 @@
+{
+  "name": "data-analysis-scripts",
+  "version": "1.0.0",
+  "description": "Scripts that provide insights into Sourcify's data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "proxy-analysis": "node proxy-analysis.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sourcifyeth/data-analysis-scripts.git"
+  },
+  "keywords": [
+    "sourcify",
+    "ethereum",
+    "contract",
+    "data",
+    "analysis"
+  ],
+  "author": "Sourcify",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sourcifyeth/data-analysis-scripts/issues"
+  },
+  "homepage": "https://github.com/sourcifyeth/data-analysis-scripts#readme",
+  "dependencies": {
+    "@shazow/whatsabi": "^0.15.2"
+  }
+}
