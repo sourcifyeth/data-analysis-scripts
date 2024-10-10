@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "proxy-analysis": "node proxy-analysis.mjs"
+    "proxy-analysis": "node proxy-analysis.mjs",
+    "multi-proxy-analysis": "node multi-proxy-analysis.mjs"
   },
   "repository": {
     "type": "git",
@@ -25,8 +26,10 @@
   },
   "homepage": "https://github.com/sourcifyeth/data-analysis-scripts#readme",
   "dependencies": {
+    "@ethersproject/providers": "^5.7.2",
     "@shazow/whatsabi": "^0.15.2",
     "dotenv": "16.4.5",
+    "ethers": "^6.13.3",
     "pg": "8.13.0"
   }
 }
