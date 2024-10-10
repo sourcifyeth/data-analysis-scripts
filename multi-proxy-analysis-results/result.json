@@ -1,0 +1,10 @@
+{
+  "processedContracts": 1,
+  "checkedChains": [
+    "1"
+  ],
+  "numberOfImplementationAddressesCount": {},
+  "multiProxyContractTypes": {
+    "EIP1967Proxy, EIP1967Proxy": 1
+  }
+}
