@@ -26,10 +26,9 @@
   },
   "homepage": "https://github.com/sourcifyeth/data-analysis-scripts#readme",
   "dependencies": {
-    "@ethersproject/providers": "^5.7.2",
     "@shazow/whatsabi": "^0.15.2",
     "dotenv": "16.4.5",
-    "ethers": "^6.13.3",
+    "ethers": "^5",
     "pg": "8.13.0"
   }
 }

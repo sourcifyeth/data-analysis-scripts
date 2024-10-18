@@ -6,7 +6,7 @@ import dotenv from "dotenv";
 import process from "process";
 import { fileURLToPath } from "url";
 import { whatsabi } from "@shazow/whatsabi";
-import { JsonRpcProvider } from "@ethersproject/providers";
+import ethers from "ethers";
 
 dotenv.config();
 
@@ -96,7 +96,7 @@ async function checkMultiProxies() {
         console.warn(`No RPC URL for chain id ${chainId}`);
         continue;
       }
-      const provider = new JsonRpcProvider(rpcConfig[chainId]);
+      const provider = new ethers.providers.JsonRpcProvider(rpcConfig[chainId]);
       console.log("Processing chain id ", chainId);
       checkedChains.push(chainId);
 
